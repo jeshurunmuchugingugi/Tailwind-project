@@ -3,11 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        fjbjjfjdaajdfnm
+    <header class="nav-bar">
+        <h1 class="logo"><span>Elite</span> Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">MEGA MENU</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div class="shoe-section">
+        <div class="details-1">
+                <h5>For Men's</h5>
+                <h2>High Quality Converse</h2>
+                <h5>For only $59.00</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Modi adipisci laboriosam accusamus atque cum, ullam corrupti voluptatibus maiores aliquam.
+                    </p>
+                    <button class="shop-now">SHOP NOW</button>
+            </div>
+        <div class="image">
+            <img src="./tailwindimages/home.jpg" alt="">
+        </div>
     </div>
+
+    <section class="end-of-sales">
+        <div class="season-sales">
+            <img src="./tailwindimages/section .jpg" alt="End of seasonal sales image">
+            <div class="season-text">
+                <h3>End of Season Sales</h3>
+                <p class="discount">Take 23% of all sweaters and knitwear.Discount applied to checkout</p>
+                <button class="shop-now-2">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="top-collection">
+        <h3>Top Collections</h3>
+        <div class="all-items">
+            <div class="item-1">
+                <img src="./tailwindimages/item1.jpg" alt="item one">
+                <p class="first">Puzzle leather shoulder bag</p>
+                <p>$400</p>
+            </div>
+            <div class="item-2">
+                <img src="./tailwindimages/item2.jpg" alt="">
+                <div class="button-div">
+                    <button class="add-tocart">ADD TO CART</button>
+                </div>
+                <p class="first">Puzzle leather shoulder bag</p>
+                <p>$400</p>
+            </div>
+            <div class="item-3">
+                <img src="./tailwindimages/item3.jpg" alt="">
+                <p class="first">Puzzle leather shoulder bag</p>
+                <p>$400</p>
+            </div>
+            <div class="item-4">
+                <img src="./tailwindimages/item4.jpg" alt="">
+                <p class="first">Puzzle leather shoulder bag</p>
+                <p>$400</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <h2>Our Newsletter</h2>
+        <p>Subscribe to our newsletter to receive early discount offers</p>
+        <div class="subscribe-inputs">
+            <input type="text" name="" placeholder="Enter your email" id="input-field">
+            <button class="subscribe-button">Subscribe</button>
+        </div>
+    </section>
 </body>
 </html>

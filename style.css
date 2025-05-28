@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}  
+.nav-bar {
+    display: flex;
+    gap: 20rem;
+    padding: 15px 70px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+nav  ul{
+    display: flex;
+    gap: 50px;
+    color: rgb(31, 31, 31);
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+.logo {
+    font-size: 1.5rem;
+}
+.logo span {
+    color: #ff0000;
+}
+.shoe-section {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #ffffff, #cae4e0); 
+    justify-content: space-evenly;
+}
+.image img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vh;
+    height: auto;
+    mask-image: radial-gradient(ellipse farthest-corner at right center, black 40%, transparent);
+}
+.details-1 {
+    margin: 60px 100px;
+}
+.details-1 h5, p {
+    color: rgb(80, 80, 80);
+}
+.details-1  h2, .newsletter h2 {
+    font-size: 51px;
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+}
+h5, h3{
+    font-weight: 400;
+    font-size: 35px;
+}
+.details-1 p,.discount, .subscribe-inputs {
+    margin: 15px 0px;
+    font-family: "Poppins", sans-serif;
+}
+.shop-now, .shop-now-2, .button-div button, .subscribe-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    background-color: #ff0000;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.season-sales img {
+    width: 100vw;
+    filter: brightness(40%);
+}
+.end-of-sales {
+    margin-bottom: 40px;
+}
+.season-sales ,.item-2 {
+    position: relative;
+}
+.season-text, .button-div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center the text */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.discount {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.season-text {
+    text-align: center;
+}
+.shop-now-2 {
+    background-color: #ffffff;
+    color: rgb(26, 26, 26);
+}
+#top-collection, h3 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+#top-collection {
+    padding: 50px 0px;
+}
+.all-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.all-items img {
+    width: 20vw;
+}
+.button-div  {
+    top: 78%;
+}
+.button-div button {
+    padding: 10px 15px;
+    font-weight: 300;
+}
+.all-items .first, p {
+    margin-top: 10px;
+}
+.newsletter {
+    text-align: center;
+    background-color: #f1f2f4;
+    padding: 20px 60px;
+    box-shadow: inset 0 -10px 20px rgba(0, 0, 0, 0.2);
+}
+.subscribe-inputs {
+    margin-top:10px;
+    gap: 10px;
+} 
+#input-field {
+    padding: 10px 70px;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+}
+.newsletter p {
+    font-size: 15px;
+    margin-bottom: -5px;
+}
